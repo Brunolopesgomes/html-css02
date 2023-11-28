@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+body{
+ 
+font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+h1{}
+
+h2{}
+
+p{}
+
+
+a{
+
+text-decoration: none;
+
+
+}
+
+a > p{
+
+    display: none;
+
+
+}
+
+a:hover > p{
+    display: block;
+    color: gold;
+
+}
+
+
+a:hover{color: darkgreen;
+
+text-decoration: underline;
+
+}

@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+* {height: auto;
+
+
+}
+body{background-color: aqua;font-family: Arial, Helvetica, sans-serif;}
+
+h1{text-align: center;}
+
+#principal{color: brown;}
+
+.secundario{color: chartreuse;
+font-family: 'Times New Roman', Times, serif;
+font-style: italic;
+text-decoration: underline;
+}
+
+p{ text-align:justify;}
