@@ -1,4 +1,4 @@
 # html-css02
  meu treino do curso em video
 
-opa ola mundo
+https://brunolopesgomes.github.io/html-css02/ex006
