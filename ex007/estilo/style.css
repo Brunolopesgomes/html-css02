@@ -12,12 +12,13 @@
 }
 
 :root {
+    
+    --cor01:#83e1ad;
 
-    --cor01:#394A59;
-    --cor02:#4F6573;
-    --cor03:#A6785D;
-    --cor04:#BF3F34;
-    --cor05:#BFB5B4;
+    --cor02:#3ddc84;
+    --cor03:#2fa866;
+    --cor04:#1a5c37;
+    --cor05:#063d1e;
     
     --fonte-robo:'robo',sans-serif;
     --fonte-principal:'josefin sans';
@@ -35,7 +36,7 @@ padding: 0px;
 
 
 header{
-   background-image: linear-gradient(to bottom,var(--cor02),var(--cor01));
+   background-image: linear-gradient(to bottom,var(--cor02),var(--cor04));
     padding-bottom: 42px;
     padding-top: 47px;
 width: 100%;
@@ -46,7 +47,8 @@ width: 100%;
 header h1{
 text-align: center;
 font-family: var(--fonte-robo);
-color:var(--cor04);
+color:white;
+font-weight: normal;
 padding-bottom: 26px;
 text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.787);
 
@@ -57,14 +59,14 @@ header p{
 text-align: center;
 font-family: Arial, Helvetica, sans-serif;
 text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.842);
-color: var(--cor03);
+color:white;
 
 
 }
 
 nav{
 
-background-color: var(--cor01);
+background-color: var(--cor04);
 
 padding-bottom: 15px;
 }
@@ -72,7 +74,7 @@ padding-bottom: 15px;
 nav > a{
 
 color: white;
-padding: 15px;
+padding:7px;
 text-decoration: none;
 font-family: var(--fonte-principal);
 font-weight: normal;
@@ -95,7 +97,7 @@ color:black;
 
 body{
     
-    background-color:var(--cor01);
+    background-color:var(--cor04);
 
 
 
@@ -133,10 +135,11 @@ main p{
 font-family: var(--fonte-corpo);
 text-indent: 30px;
 text-align: justify;
-font-size: 17px;
-line-height: 30px;
+font-size: 20px;
+line-height: 40px;
 margin: auto;
 padding-top: 15px;
+padding-bottom: 25px;
 
 
 
@@ -162,7 +165,7 @@ display: block;
 margin: auto;
 height: 200px;
 width: 300px;
-padding-bottom: 24px;
+padding-bottom: 15px;
 padding-top: 24px;
 }
 
@@ -174,7 +177,7 @@ position: relative;
 
 margin: 0px -15px 15px -15px;
 padding-bottom: 59%;
-background-color: #394A59;
+background-color:var(--cor04);
 
 
 }
@@ -182,6 +185,7 @@ background-color: #394A59;
 .video-youtube > iframe{
 
 position: absolute;
+
 top: 5%;
 left: 5%;
 width: 90%;
@@ -192,9 +196,9 @@ border-radius: 15px;
 }
 
 aside{
-    margin-top: 30px;
+margin-top: 30px;
 padding: 15px;
-background-color: var(--cor02);
+background-color: var(--cor04);
 border-radius: 15px;
 }
 
