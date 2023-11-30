@@ -58,7 +58,7 @@ header p{
 
 text-align: center;
 font-family: Arial, Helvetica, sans-serif;
-text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.842);
+text-shadow: 2px 1px 5px rgb(0, 0, 0);
 color:white;
 
 
@@ -74,7 +74,7 @@ padding-bottom: 15px;
 nav > a{
 
 color: white;
-padding:7px;
+padding:4px;
 text-decoration: none;
 font-family: var(--fonte-principal);
 font-weight: normal;
@@ -87,7 +87,7 @@ font-size: large;
 nav > a:hover{
 
 background-color: var(--cor03);
-border-radius: 15px;
+border-radius: 10px;
 transition-duration: 0.5s;
 color:black;
 
@@ -136,7 +136,7 @@ font-family: var(--fonte-corpo);
 text-indent: 30px;
 text-align: justify;
 font-size: 20px;
-line-height: 40px;
+line-height: 45px;
 margin: auto;
 padding-top: 15px;
 padding-bottom: 25px;
@@ -196,7 +196,7 @@ border-radius: 15px;
 }
 
 aside{
-margin-top: 30px;
+margin-top: 25px;
 padding: 15px;
 background-color: var(--cor04);
 border-radius: 15px;
@@ -225,6 +225,7 @@ color: white;
 text-align: justify;
 
 
+
 }
 
 
@@ -236,6 +237,7 @@ columns: 2;
 list-style-type: '\2714\0020\0020';
 color: var(--cor03);
 text-shadow: 1px 2px 2px black;
+font-size: large;
 }
 
 aside ul abbr{
@@ -249,6 +251,25 @@ aside ul abbr:hover{
 color: red;
 text-decoration: underline;
 text-shadow: 1px 2px 2px black;
+
+}
+
+aside  a{
+
+text-decoration: none;
+color:var(--cor02);
+text-shadow: 1px 2px 2px black;
+}
+
+
+
+aside a:hover{
+
+text-decoration: underline;
+color: blue;
+text-shadow: 2px 1px 2px black;
+
+
 
 }
 
@@ -269,4 +290,19 @@ font-size:x-large;
 font-weight: normal;
 color: var(--cor04);
 text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+footer a{
+
+text-decoration: none;
+
+color: rgb(30, 30, 255);
+}
+
+footer a:hover{
+
+text-decoration: underline;
+color: rgb(201, 0, 0);
+
+
 }
