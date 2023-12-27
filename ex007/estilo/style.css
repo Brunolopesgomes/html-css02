@@ -197,7 +197,7 @@ border-radius: 15px;
 
 aside{
 margin-top: 25px;
-padding: 15px;
+padding: 15px ; 
 background-color: var(--cor04);
 border-radius: 15px;
 }
