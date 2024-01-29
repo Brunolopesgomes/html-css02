@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+
+*{
+
+padding: 0px;
+margin: 0px;
+
+}
+
+
+header{
+
+background-color: black;
+text-align: center;
+
+
+}
+
+header h1{
+
+color: white;
+padding-top: 50px;
+font-variant: small-caps;
+
+}
+
+header p{
+
+color: white;
+padding-bottom: 50px;
+
+}
+
+
+a{
+text-decoration: none;
+color: white;
+font-size: bolder;
+
+}
+
+a:hover{
+text-decoration: underline;
+
+
+}
+
+
+
+body{
+
+height: 100px;
+
+
+}
+
+section{
+
+padding-top: 10vh;
+padding-bottom: 10vh;
+padding-left: 30px;
+line-height: 2em;
+}
+
+.normal{
+
+
+
+}
+.imagem01{
+
+background: url(imagens/background001.jpg)
+center no-repeat fixed ;
+background-size: cover;
+
+}
+
+.imagem02{
+
+    background: url(imagens/background002.jpg)
+    center no-repeat fixed ;
+    background-size: cover;
+
+}
+
