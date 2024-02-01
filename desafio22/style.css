@@ -8,6 +8,19 @@ margin: 0px;
 
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Honk&family=Passion+One&family=Single+Day&display=swap');
+
+:root{
+
+
+--fonte01:"Passion One", sans-serif;
+--fonte02: "Single Day", cursive;
+--fonte03: "Covered By Your Grace", cursive;
+
+
+}
+
+
 
 header{
 
@@ -22,8 +35,13 @@ header h1{
 color: white;
 padding-top: 50px;
 font-variant: small-caps;
+font-family: var(--fonte01);
+
 
 }
+
+
+
 
 header p{
 
@@ -64,9 +82,10 @@ line-height: 2em;
 }
 
 .normal{
-
-
-
+    font-family: "Single Day", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 23px;
 }
 .imagem01{
 
@@ -74,7 +93,22 @@ background: url(imagens/background001.jpg)
 center no-repeat fixed ;
 background-size: cover;
 
+
 }
+    .imagem01 > p{
+    
+    background-color: rgba(0, 0, 0, 0.219);
+    color: white;
+    width: 230px;
+    font-family: var(--fonte02);
+    border-radius: 15px;
+    padding-left: 15px;
+
+
+    }
+
+
+
 
 .imagem02{
 
@@ -84,3 +118,36 @@ background-size: cover;
 
 }
 
+.imagem02 > p{
+
+
+
+padding-left: 15px;
+    background-color: rgba(0, 0, 0, 0.712);
+    color: white;
+    width: 230px;
+
+    border-radius: 15px;
+    font-family: "Single Day", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+
+}
+
+footer{
+
+background-color: black;
+height: 50px;
+text-align: center;
+}
+
+
+footer > p{
+color: white;
+padding-top: 20px;
+font-family: "Covered By Your Grace", cursive;
+  font-weight: 400;
+  font-style: normal;
+
+}
