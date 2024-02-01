@@ -80,18 +80,24 @@ padding-bottom: 10vh;
 padding-left: 30px;
 line-height: 2em;
 }
+section > p{
+
+padding-bottom: 2em;
+
+}
 
 .normal{
     font-family: "Single Day", cursive;
-    font-weight: 400;
-    font-style: normal;
+    font-weight:bold;
+    
     font-size: 23px;
 }
 .imagem01{
 
 background: url(imagens/background001.jpg)
-center no-repeat fixed ;
-background-size: cover;
+right no-repeat fixed ;
+background-size:cover ;
+box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.62);
 
 
 }
@@ -103,7 +109,7 @@ background-size: cover;
     font-family: var(--fonte02);
     border-radius: 15px;
     padding-left: 15px;
-
+    text-shadow: 2px 2px 2px black;
 
     }
 
@@ -113,9 +119,9 @@ background-size: cover;
 .imagem02{
 
     background: url(imagens/background002.jpg)
-    center no-repeat fixed ;
+   left top no-repeat fixed ;
     background-size: cover;
-
+    box-shadow: inset 6px 6px 13px  rgba(0, 0, 0, 0.598);
 }
 
 .imagem02 > p{
@@ -123,16 +129,12 @@ background-size: cover;
 
 
 padding-left: 15px;
-    background-color: rgba(0, 0, 0, 0.712);
+    background-color: rgba(0, 0, 0, 0.464);
     color: white;
     width: 230px;
-
     border-radius: 15px;
-    font-family: "Single Day", cursive;
-    font-weight: 400;
-    font-style: normal;
-
-
+font-family: var(--fonte02);
+text-shadow: 2px 2px 2px black;
 }
 
 footer{
@@ -146,8 +148,6 @@ text-align: center;
 footer > p{
 color: white;
 padding-top: 20px;
-font-family: "Covered By Your Grace", cursive;
-  font-weight: 400;
-  font-style: normal;
+font-family: var(--fonte03);
 
 }
