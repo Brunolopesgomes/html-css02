@@ -3,5 +3,6 @@
 
 https://brunolopesgomes.github.io/html-css02/ex007
 
-
 https://brunolopesgomes.github.io/html-css02/ex006
+
+https://brunolopesgomes.github.io/html-css02/projeto-cordel/
